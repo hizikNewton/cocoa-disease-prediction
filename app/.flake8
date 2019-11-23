@@ -1,4 +1,7 @@
 [flake8]
+per-file-ignores =
+    ./app/setings.py:E501,
+    ./core/migrations/*: E501
 exclude =
     migrations,
     __pycache__,
